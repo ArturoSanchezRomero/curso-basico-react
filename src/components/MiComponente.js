@@ -1,8 +1,6 @@
 // Cremos un componente 
 // El nombre del componente se escribe utilizando camelCase
-export default function MiComponente() {
-
-    const nombre = "Bill Gates";
+export default function MiComponente({nombre}) {
 
     // Se retorna un unico elemento
     return (

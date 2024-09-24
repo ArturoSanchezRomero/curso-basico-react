@@ -2,9 +2,11 @@ import MiComponente from "./components/MiComponente";
 
 function App() {
 
+  const nombre = "Bill Gates";
+
   return (
     <div >
-      <MiComponente />
+      <MiComponente nombre={nombre} />
     </div>
   );
 }
