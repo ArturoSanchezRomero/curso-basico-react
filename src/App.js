@@ -1,4 +1,5 @@
 import MiComponente from "./components/MiComponente";
+import Saludar from "./components/Saludar";
 
 // Las funciones pueden recibir valores normales
 function multiplicacion(a,b) {
@@ -12,10 +13,7 @@ function App() {
 
   // Retorna JSX
   return (
-    <div >
-      <MiComponente />
-      <p>{multiplicacion(15,10)}</p>
-    </div>
+    <Saludar />
   );
 }
 

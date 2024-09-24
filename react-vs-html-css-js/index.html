@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola Nombre</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1 class="saludo" id="saludo">Hola</h1>  <!-- Saludo inicial -->
+
+    <input
+      class="input"
+      type="text"
+      id="nombre"
+      placeholder="Ingresa tu nombre"
+      oninput="actualizarSaludo()" 
+    />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
