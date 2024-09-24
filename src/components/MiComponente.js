@@ -1,6 +1,6 @@
 // Cremos un componente 
 // El nombre del componente se escribe utilizando camelCase
-export default function MiComponente({nombre}) {
+export default function MiComponente({nombre=" a todos"}) {
 
     // Se retorna un unico elemento
     return (

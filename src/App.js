@@ -13,7 +13,7 @@ function App() {
   // Retorna JSX
   return (
     <div >
-      <MiComponente nombre={nombre} />
+      <MiComponente />
       <p>{multiplicacion(15,10)}</p>
     </div>
   );
