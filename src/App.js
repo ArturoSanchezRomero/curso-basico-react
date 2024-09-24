@@ -4,9 +4,6 @@ function App() {
 
   return (
     <div >
-      <p>
-        Hola Mundo
-      </p>
       <MiComponente />
     </div>
   );
