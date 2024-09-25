@@ -1,14 +1,10 @@
+import TiposDeJSX from "./components/Estructuras";
 import MiComponente from "./components/MiComponente";
 
 function App() {
 
   return (
-    <div >
-      <p>
-        Hola Mundo
-      </p>
-      <MiComponente />
-    </div>
+    <TiposDeJSX />
   );
 }
 
